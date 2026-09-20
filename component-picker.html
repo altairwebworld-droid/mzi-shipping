@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MZI motion picker</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/component-picker.css">
+  <script defer src="/component-picker.js"></script>
+</head>
+<body>
+  <main>
+    <header class="intro">
+      <a href="/" class="brand"><span>↗</span>MZI SHIPPING</a>
+      <p class="eyebrow">COMPONENT VAULT / SHORTLIST</p>
+      <h1>Pick the motion.<br><em>Then we make it MZI.</em></h1>
+      <p class="lead">Choose any pieces you want to see on the site. The preview is from your library. I will rebuild the chosen motion around MZI content, colors and product imagery.</p>
+      <div class="selection" aria-live="polite"><span>Selected</span><output id="chosen">Nothing picked yet</output><button id="copy" type="button" disabled>Copy selection</button></div>
+    </header>
+
+    <section class="placement-note">
+      <div><span>01</span><h2>Home hero</h2><p>Use one. It sets the pace before people start browsing products.</p></div>
+      <div><span>02</span><h2>Product categories</h2><p>Use one gallery treatment for the 15 category images.</p></div>
+      <div><span>03</span><h2>Proof, process or CTA</h2><p>Use a subtle interaction where it adds clarity.</p></div>
+    </section>
+
+    <section class="group" id="hero">
+      <div class="group-title"><p class="eyebrow">01 / HERO ENTRANCES</p><h2>How the site arrives</h2></div>
+      <div class="picker-grid">
+        <article data-code="H04"><img src="/assets/component-picker/Hero_Animations_4.jpg" alt="Preview of a shutter reveal hero"><div class="card-copy"><span>H04</span><h3>Shutter reveal</h3><p>A restrained cinematic image reveal. Best for a hero with a warehouse, port or product film.</p><button type="button">Select for hero</button></div></article>
+        <article data-code="H07"><img src="/assets/component-picker/Hero_Animations_7.jpg" alt="Preview of a circular reveal hero"><div class="card-copy"><span>H07</span><h3>Capsule reveal</h3><p>A progress bar opens into an image through a circular mask. Good for a confident opening.</p><button type="button">Select for hero</button></div></article>
+        <article data-code="H18"><img src="/assets/component-picker/Hero_Animations_18.jpg" alt="Preview of a horizontal slit hero reveal"><div class="card-copy"><span>H18</span><h3>Horizontal slit</h3><p>A graphic, quick-opening reveal that works well with big type and a strong image.</p><button type="button">Select for hero</button></div></article>
+        <article data-code="H20"><img src="/assets/component-picker/Hero_Animations_20.jpg" alt="Preview of a scrolling marquee reveal"><div class="card-copy"><span>H20</span><h3>Marquee entrance</h3><p>Moving type bands introduce the site. Use it only if you want a bolder, more fashion-led first moment.</p><button type="button">Select for hero</button></div></article>
+        <article data-code="H23"><img src="/assets/component-picker/Hero_Animations_23.jpg" alt="Preview of a staggered product-image reveal"><div class="card-copy"><span>H23</span><h3>Product collage</h3><p>A central product image opens first, then supporting images arrive around it. Strong for China sourcing.</p><button type="button">Select for hero</button></div></article>
+      </div>
+    </section>
+
+    <section class="group" id="gallery">
+      <div class="group-title"><p class="eyebrow">02 / PRODUCT GALLERIES</p><h2>How people browse categories</h2></div>
+      <div class="picker-grid">
+        <article data-code="G01"><div class="motion-preview density"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="card-copy"><span>G01</span><h3>Grid density switch</h3><p>Visitors can switch a catalogue between roomy and compact layouts. Good for 15 categories.</p><button type="button">Select for categories</button></div></article>
+        <article data-code="G03"><div class="motion-preview elastic"><i></i><i></i><i></i></div><div class="card-copy"><span>G03</span><h3>Elastic grid scroll</h3><p>Columns move at different speeds as the visitor scrolls. Editorial and image led.</p><button type="button">Select for categories</button></div></article>
+        <article data-code="G07"><div class="motion-preview formation"><i></i><i></i><i></i><i></i><i></i></div><div class="card-copy"><span>G07</span><h3>Grid formation</h3><p>Images begin scattered and settle into a clean collection. The strongest option for a category reveal.</p><button type="button">Select for categories</button></div></article>
+        <article data-code="G08"><div class="motion-preview hover-menu"><b>Kitchenware</b><b>Toys</b><b>Tools</b><b>Clothing</b></div><div class="card-copy"><span>G08</span><h3>Image-led menu</h3><p>Each category title reveals its picture on hover. Mobile gets tap-friendly cards.</p><button type="button">Select for categories</button></div></article>
+        <article data-code="G09"><div class="motion-preview make-way"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="card-copy"><span>G09</span><h3>Expand on click</h3><p>Opening one image makes space around it. Best if every category leads to a deeper page.</p><button type="button">Select for categories</button></div></article>
+      </div>
+    </section>
+
+    <section class="group" id="scroll">
+      <div class="group-title"><p class="eyebrow">03 / SCROLL MOMENTS</p><h2>Where the story slows down</h2></div>
+      <div class="picker-grid">
+        <article data-code="S16"><img src="/assets/component-picker/Scroll_Animation_16.jpg" alt="Preview of a sticky image grid"><div class="card-copy"><span>S16</span><h3>Sticky product story</h3><p>Copy remains in view while images travel beside it. Ideal for the sourcing and shipping process.</p><button type="button">Select for process</button></div></article>
+        <article data-code="S18"><img src="/assets/component-picker/Scroll_Animation_18.jpg" alt="Preview of a stacked-card effect"><div class="card-copy"><span>S18</span><h3>Stack to grid</h3><p>A card pile unfolds into a grid. Good for MZI services or the request choices.</p><button type="button">Select for process</button></div></article>
+        <article data-code="S19"><img src="/assets/component-picker/Scroll_Animation_19.jpg" alt="Preview of a connected image grid"><div class="card-copy"><span>S19</span><h3>Connected image grid</h3><p>An irregular, designed image layout comes together on scroll. Works for product variety.</p><button type="button">Select for process</button></div></article>
+        <article data-code="S21"><div class="motion-preview layout-shift"><i></i><i></i><i></i><i></i></div><div class="card-copy"><span>S21</span><h3>Layout transformation</h3><p>The same images change arrangement as visitors move through a story.</p><button type="button">Select for process</button></div></article>
+        <article data-code="S28"><img src="/assets/component-picker/Scroll_Animation_28.jpg" alt="Preview of a fullscreen scrolling slideshow"><div class="card-copy"><span>S28</span><h3>Fullscreen sequence</h3><p>One category or shipment story fills the screen at a time. Best saved for a premium editorial page.</p><button type="button">Select for process</button></div></article>
+      </div>
+    </section>
+
+    <section class="group" id="support">
+      <div class="group-title"><p class="eyebrow">04 / SUPPORTING INTERACTIONS</p><h2>Small moments with a job to do</h2></div>
+      <div class="picker-grid">
+        <article data-code="C17"><img src="/assets/component-picker/Sliders_17.jpg" alt="Preview of a carousel with previous and next controls"><div class="card-copy"><span>C17</span><h3>Controlled carousel</h3><p>A simple next and previous gallery for shipment stories, category highlights or testimonials.</p><button type="button">Select for supporting section</button></div></article>
+        <article data-code="C19"><img src="/assets/component-picker/Sliders_19.jpg" alt="Preview of a modular image carousel"><div class="card-copy"><span>C19</span><h3>Modular carousel</h3><p>Large imagery and a vertical title list. Useful for a featured category spotlight.</p><button type="button">Select for supporting section</button></div></article>
+        <article data-code="B03"><div class="motion-preview particles"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="card-copy"><span>B03</span><h3>Soft particle field</h3><p>Light ambient movement behind a dark section. A quiet option for the closing request area.</p><button type="button">Select for supporting section</button></div></article>
+        <article data-code="B05"><div class="motion-preview waves"><i></i><i></i><i></i><i></i><i></i></div><div class="card-copy"><span>B05</span><h3>Wave lines</h3><p>Fine animated lines for a light background. Subtle enough for contact or quote areas.</p><button type="button">Select for supporting section</button></div></article>
+        <article data-code="B10"><div class="motion-preview dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="card-copy"><span>B10</span><h3>Interactive dots</h3><p>A small responsive texture behind a CTA. Keeps the interface alive without taking over.</p><button type="button">Select for supporting section</button></div></article>
+      </div>
+    </section>
+
+    <section class="coverage">
+      <p class="eyebrow">NEXT PHASE / PRODUCT IMAGERY</p>
+      <h2>15 product categories to represent</h2>
+      <p>After you choose the motion, I will build a proper image set for these, then assign the images to the chosen modules.</p>
+      <ol>
+        <li>Kitchenware</li><li>Kids toys</li><li>Inflatables and jumping castles</li><li>Adventure and play equipment</li><li>Hand tools</li><li>Construction equipment</li><li>Machinery</li><li>Vehicles and auto parts</li><li>Furniture</li><li>Home appliances</li><li>Electronics</li><li>Clothing and textiles</li><li>Beauty and personal care</li><li>Sport and fitness</li><li>Business and retail supplies</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,7 @@
+dist/
+work/
+outputs/
+node_modules/
+*.tar.gz
+.playwright-mcp/
+*.png

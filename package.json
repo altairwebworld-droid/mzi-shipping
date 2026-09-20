@@ -1,0 +1,1 @@
+{"name":"mzi-shipping","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node src/build.mjs","start":"node src/serve.mjs"}}

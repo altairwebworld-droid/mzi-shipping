@@ -1,0 +1,31 @@
+{
+  "heroVideo": {
+    "provider": "User supplied",
+    "sourceFile": "C:\\Users\\OMEN\\Downloads\\13076580_3840_2160_60fps.mp4",
+    "downloadedFile": "public/assets/hero-container-port.mp4",
+    "posterFile": "public/assets/hero-container-port.webp",
+    "description": "A 12-second, optimized loop from user-supplied container-terminal footage. It is used as the MZI Shipping hero background.",
+    "sourceFormat": "3840x2160, 59.94 fps, H.264, 36.17 seconds",
+    "webFormat": "1600x900, 30 fps, H.264, 12 seconds",
+    "mobileFile": "public/assets/hero-container-port-mobile.mp4",
+    "mobileFormat": "720x406, 24 fps, H.264, 12 seconds"
+  },
+  "productImages": [
+    {"category":"Amusement park products","file":"public/assets/product-amusement.webp","sourcePage":"https://www.pexels.com/photo/colorful-outdoor-playground-slides-in-park-38437142/"},
+    {"category":"LED lighting","file":"public/assets/product-led-lighting.webp","sourcePage":"https://www.pexels.com/photo/lighting-of-the-facade-details-along-the-sidewalk-16489597/"},
+    {"category":"Electronics","file":"public/assets/product-electronics.webp","sourcePage":"https://www.pexels.com/photo/a-person-holding-a-soldering-iron-9242896/"},
+    {"category":"Electronic billboards","file":"public/assets/product-billboards.webp","sourcePage":"https://www.pexels.com/photo/digital-billboards-on-buildings-and-traffic-on-the-street-at-night-in-new-york-city-ny-usa-24589196/"},
+    {"category":"Street lighting","file":"public/assets/product-street-lighting.webp","sourcePage":"https://www.pexels.com/photo/lanterns-along-the-jammed-street-at-night-16408142/"},
+    {"category":"Skateboards","file":"public/assets/product-skateboards.webp","sourcePage":"https://www.pexels.com/photo/people-with-skateboards-standing-on-the-ramp-5037667/"},
+    {"category":"Toys","file":"public/assets/product-toys.webp","sourcePage":"https://www.pexels.com/photo/close-up-of-toys-in-a-store-20665610/"},
+    {"category":"Houseware","file":"public/assets/product-houseware.webp","sourcePage":"https://www.pexels.com/photo/kitchen-supply-shop-6265333/"},
+    {"category":"Kitchenware","file":"public/assets/product-kitchenware.webp","sourcePage":"https://www.pexels.com/photo/kitchenware-on-a-countertop-3847514/"},
+    {"category":"Shipping containers","file":"public/assets/product-containers.webp","sourcePage":"https://www.pexels.com/photo/view-of-shipping-containers-27130409/"},
+    {"category":"Clothing & textiles","file":"public/assets/product-clothing.webp","sourcePage":"https://www.pexels.com/photo/woman-fixing-something-on-man-clothes-7779763/"},
+    {"category":"Shoes","file":"public/assets/product-shoes.webp","sourcePage":"https://www.pexels.com/photo/multi-colored-leather-handmade-shoes-17695225/"},
+    {"category":"Gadgets","file":"public/assets/product-gadgets.webp","sourcePage":"https://www.pexels.com/photo/black-smartphones-standing-on-a-desk-14486283/"},
+    {"category":"Tablets","file":"public/assets/product-tablets.webp","sourcePage":"https://www.pexels.com/photo/tablets-standing-on-display-in-a-store-with-electronics-25809251/"},
+    {"category":"Laptops","file":"public/assets/product-laptops.webp","sourcePage":"https://www.pexels.com/photo/person-typing-on-a-laptop-6893890/"}
+  ],
+  "imageLicense": "Product images are illustrative Pexels stock images. Review the current Pexels License before any further reuse."
+}
